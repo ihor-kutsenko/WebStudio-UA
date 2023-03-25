@@ -2,16 +2,16 @@
   background-color: var(--filter-background-color-);
 }
 
-.employees-title {
+.employees__title {
   margin-bottom: 50px;
 }
 
-.employees-list {
+.employees__list {
   display: flex;
   margin-left: -30px;
 }
 
-.employees-card {
+.employees__card {
   margin-left: 30px;
   flex-basis: calc((100% - 120px) / 4);
 
@@ -26,7 +26,7 @@
   background-color: var(--third-text-color);
 }
 
-.employees-name {
+.employees__name {
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -36,7 +36,7 @@
   letter-spacing: 0.03em;
 }
 
-.employees-position {
+.employees__position {
   margin-bottom: 16px;
 
   font-weight: 400;

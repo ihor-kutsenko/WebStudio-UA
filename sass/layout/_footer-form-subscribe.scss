@@ -2,7 +2,7 @@
   margin-left: auto;
 }
 
-.subscribe-form-description {
+.subscribe-form__description {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -12,7 +12,7 @@
   margin-bottom: 20px;
 }
 
-.subscribe-form-input {
+.subscribe-form__input {
   width: 358px;
   height: 50px;
   padding-top: 15px;
@@ -27,7 +27,7 @@
   color: var(--logo-footer-text-color);
 }
 
-.subscribe-form-input::placeholder {
+.subscribe-form__input::placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.26;
@@ -55,11 +55,11 @@
   border-radius: 4px;
 }
 
-.subscribe-form-btn-wrapper {
+.subscribe-form-btn__wrapper {
   display: flex;
   justify-content: center;
 }
 
-.subscribe-form-btn-text {
+.subscribe-form-btn__text {
   margin-right: 10px;
 }

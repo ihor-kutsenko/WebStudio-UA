@@ -10,7 +10,7 @@
   border-radius: 4px;
 }
 
-.specifics-icon {
+.specifics__icon {
   align-items: center;
   width: 70px;
   height: 70px;
@@ -21,12 +21,12 @@
   margin-left: -30px;
 }
 
-.specifics-list-item {
+.specifics-list__item {
   margin-left: 30px;
   flex-basis: 270px;
 }
 
-.specifics-title {
+.specifics__title {
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -36,7 +36,7 @@
   text-transform: uppercase;
 }
 
-.specifics-text {
+.specifics__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;

@@ -2,7 +2,7 @@
   padding-top: 0;
 }
 
-.description-title {
+.description__title {
   margin-bottom: 50px;
 }
 
@@ -14,17 +14,17 @@
   letter-spacing: 0.03em;
 }
 
-.description-list {
+.description__list {
   display: flex;
   margin-left: -30px;
 }
 
-.description-item {
+.description__item {
   margin-left: 30px;
   flex-basis: calc((100% - 90px) / 3);
 }
 
-.description-overlay {
+.description__overlay {
   position: relative;
 }
 
@@ -38,7 +38,7 @@
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.description-title-img {
+.description__title-img {
   padding-top: 27px;
   padding-bottom: 27px;
   text-align: center;
