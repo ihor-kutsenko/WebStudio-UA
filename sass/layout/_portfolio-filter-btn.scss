@@ -1,3 +1,9 @@
+.filter-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
 .filter-btn {
   padding: 6px 22px;
   border-radius: 4px;
@@ -27,12 +33,28 @@
   }
 }
 
-.filter-list {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
 .filter-list-item:not(:last-child) {
   margin-right: 8px;
+}
+
+@media screen and (max-width: 767px) {
+  .filter-list {
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  .filter-list-item:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .filter-list {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .filter-list {
+    margin-bottom: 50px;
+  }
 }

@@ -1,13 +1,13 @@
-.contact-list__item:not(:last-child) {
-  margin-bottom: 9px;
-}
-
 .contact-list__item > a {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.contact-list__item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .contact-list__adress {

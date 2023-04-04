@@ -10,3 +10,10 @@
   letter-spacing: 0.03em;
   color: var(--logo-footer-text-color);
 }
+
+@media screen and (min-width: 1200px) {
+  .logo-footer {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}
