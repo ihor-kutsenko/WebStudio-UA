@@ -137,7 +137,7 @@
 
 .contact-form__accept-description {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
@@ -176,4 +176,34 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     outline: none;
   }
+}
+
+@media screen and (max-width: 767px) {
+  .contact-form__field:focus-within .contact-form__label-description {
+    color: var(--accent-color);
+  }
+}
+
+@media screen and (max-width: 449px) {
+  .contact-form__checkbox-label {
+    align-items: stretch;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contact-form__description {
+    line-height: 1.15;
+  }
+  .contact-form__accept-description {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+  .contact-form__message::placeholder {
+    font-size: 12px;
+    line-height: 1.17;
+  }
+
+  // .contact-form__checkbox-icon {
+  //   top: 4px;
+  // }
 }
